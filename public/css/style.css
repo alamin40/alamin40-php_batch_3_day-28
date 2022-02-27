@@ -1,0 +1,50 @@
+.my-caption
+{
+    background-color: rgba(255, 231, 159, 0.64);
+    bottom: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.top-bg-color{
+    background-color: #e2e2e2;
+}
+
+.h-550{ height: 550px;}
+.h-200{ height: 200px;}
+.h-157{ height: 157px;}
+.h-300{ height: 300px;}
+.h-50{ height: 50px !important;}
+.h-20{ height: 20px }
+
+
+.f-size-22{ font-size: 22px; }
+.f-size-16{ font-size: 16px;}
+.f-size-14{ font-size: 14px; }
+.f-size-12{ font-size: 12px; }
+
+
+@media screen and (max-width: 700px){
+    .menu-position{
+        position: relative;
+        bottom: 50px;
+        left: 430px;
+    }
+}
+@media screen and (max-width: 600px){
+    .menu-position{
+        position: relative;
+        bottom: 50px;
+        left: 390px;
+    }
+
+    .right-p{
+        float: none!important;
+        margin-left: 35%;
+    }
+
+    .left-p{
+        margin-left: 13% ;
+    }
+}
+
